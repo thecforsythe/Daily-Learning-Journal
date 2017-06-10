@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <title></title>
+</header>
+<body>
+<h1> How to use GitHub and Git with a CUI.</h1>
+  <p>
+  Today I had a small break through in learning git today. Here are the steps to create a repository on github, create a branch, ACP, Pull and merge a file using git.
+  One small caveat is that I am only able to score 3 out of 4 on question pertaining to git on the quiz. :( Unfortunately the quiz will not show the correct answers for that question.
+
+    <ol>
+      <li>Open your command-line user interface (CUI) for PC's.  On a Mac the CUI is named Terminal.
+      It's true, Macs are better.</li>
+
+      <li>With your CUI, navigate to the directory where you would like to your files to be saved using the cd command.</li>
+
+      <li>Once you are at the correct location, create a new directory with the mkdir command. ()</li>
+
+      <li>Using your internet browser, got to GitHub and log in.</li>
+
+      <li>Create a repository on GitHub by clicking the + icon in the upper right of the screen. Select: New Repository. The repository acts like a library in the cloud. A copy of your code file is kept in the repository so other users can go there to examine, read, edit, comment, copy and upload new additions to the code. The repository also functions as a backup in case something happens to the code elsewhere. </li>
+
+      <li>Name the repository and select initialize with a README. The README will allow you to clone your repository to your computer. Otherwise Keith will have to come over and perform his git magic to you computer to make it all better.</li>
+
+      <li>Click the green button at the bottom of the screen: Create Repository.</li>
+
+      <li>GitHub will automatically open a new page containing information about the new repository. Click the green button: Clone or Download. ** If you need to find your repositories again, select your user name in the upper left corner of the screen. Then click: Repositories, located in the white nav bar underneath the black nav bar at the top of the screen. There you can find a complete list of your repositories.</li>
+
+      <li>After clicking the Clone or Download button, copy the link that appears in the pop up box.</li>
+
+      <li>Go back to your CUI.</li>
+
+      <li>Type the command: git clone (paste copied url link here, ignore brackets). Hit return. The clone command will download your repository to your computer into the directory in which you are currently located in your CUI.</li>
+
+      <li.>The directory you just created is now designated as the "Master Branch". Which is the official working branch of your project. It also now has the designation of HEAD. HEAD is a marker that distinduishes the current version of the file you are working on. The HEAD designation will trade places with different versions of your project but eventually it will merge back to the Master once changes to the files have been accepted.</li>
+
+      <li>Type the command: atom . (Include the . after atom)
+      This will open your newly created repository on your computer using the atom source code editor. After atom opens you should see your newly created directory in the side bar on the left.
+
+      <li>In Atom open a new file. And then do a Save As. Make sure you are saving your file in the correct directory.</li>
+
+      <li>Switch back to your CUI. Tye the command: git add . (Include the . after add) The add command prepairs all file changes and additions to your directory ON YOUR COMPUTER for the next commit.</li>
+
+      <li>Type the command: git commit -m "add a short description the changes you made to your files" (Include the "" around your description). The commit command saves these changes to your directory ON YOUR COMPUTER.</li>
+
+      <li> You can add and commit as many times as you like, however all of these changes will remain only on your computer.</li>
+
+      <li> The first time you are ready to save your changes to GitHub. Switch back to your CUI and type the command: git push -u origin HEAD in the CUI. This creates a new branch different from your master. **If you wish to continue pushing to the same branch on GitHub, subsiquent pushes can be done by typing git push. you do not have to type git push -u origin HEAD every time. No harm will be done if you do though. </li>
+
+      <li> If while you are working you want to create a new branch, go to your CUI and type: git checkout -b aDifferentNameThanYourCurrentBranch. (No period after your branch name.) This initiates a request to make a new branch. Do your add, commit, and then on your next push remember to type: git push -u origin HEAD. Otherwise you will continue to update your older branch.
+      </li>
+
+      <li>A pull request can be made at anytime after additions are pushed to GitHub. A pull request allows others to view and comment on your files. They can also create their own clone of your files and upload them on a seperate branch which can then be merged to the master. To create a pull request go to your GitHub repository in your browser, find the Branch drop down menu (The menue is hiding on the left hand side of the window half way down.) and selech the branch for which you wish to create a pull request. (The default is master and you don't want that.)</li>
+
+      <li>Push the New Pull Request button next to the Branch menu. </li>
+
+      <li>A new page will open. You can add your comments to the project, then press the green Create Pull Request button.</li>
+
+      <li>After add comments, conflicts and changes are satisfied. You need to merge the branch with the master</li>
+
+      <li>If time has passed since you created the pull request, you probably need to find it again. Select your repository on GitHub, select the branch you want on the left hand side, then push the View# button that appears next the the branch branch menu. Thats where the pull request lives.</li>
+
+      <li>Push the green button Merge Pull Request. Then push Confirm Merge. Following the merge you can delete the branch if you would like by pushing the grey button to the right of the purple icon.</li>
+
+      <li>The newly merged master is now living on GitHub, you need to bring it to your computer. Go to your CUI and type the command: git checkout master -b aDifferentNameThanYourCurrentMaster. This command will switch to a new branch and ensures any work you push will not modify the master.</li>
+
+      <li>Then type the command: git pull. (No period after pull) Pull will download a copy of the updated master to your directory on your computer so you can continue making additions and changes.</li>
+
+      <li>Repete the process of add, commit, push, pull request, merge, branch, and pull for all further work .</li>
+
+      <p>
+        Pheww!
+      </p>
+    </ol>
+  </p>
+</body>
+</html>
