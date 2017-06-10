@@ -1,0 +1,42 @@
+Today I had a small break through in learning git today. Here are the steps to create a repository on github, create a branch, ACP, Pull and merge a file using git.
+One small caveat is that I am only able to score 3 out of 4 on question pertaining to git on the quiz. :( Unfortunately the quiz will not show the correct answers for that question.
+
+1. Create a repository on GitHub by clicking the + icon in the upper right of the screen. Select: New Repository. The repository acts like a library in the cloud. A copy of your code file is kept in the repository so other users can go there to examine, read, edit, comment, copy and upload new additions to the code. The repository also functions as a backup in case something happens to the code.
+
+2. Name the repository and select initialize with a README. The README will allow you to clone your repository to your computer. Otherwise Keith will have to come over and perform his git magic to you computer to make it all better.
+
+3. Click the green button at the bottom of the screen: Create Repository.
+
+4. GitHub will automatically take you to the new repository. Click the green button: Clone or Download.
+
+** If you need to find your repositories again, select your user name in the upper left corner of the screen. Then click: Repositories, located in the white nav bar underneath the black nav bar at the top of the screen. There you can find a complete list of your repositories.
+
+5. After clicking the Create Repository button, copy the link.
+
+6. Open your command-line user interface (CUI) for PC's or Terminal on a Mac.
+It's true, Macs are better.
+
+7. Navigate to the correct directory in your CUI using the cd command.
+
+8. Type the command: git clone (paste copied url link here, ignore brackets). Hit return. The clone command will download your repository to your computer into the directory you are currently in in your CUI.
+
+9. Type the command: atom . (Include the . after atom)
+This will open your newly created repository on your computer using the atom source code editor. This is the master branch of the directory. It also has the HEAD. HEAD is the current active directory.
+
+10. Switch back to your CUI. Type the command: git checkout -b this creates a branch of the master and switches the HEAD to the branch. Working in a branch is a safer way to work so any bugs in the HEAD do not effect the master.
+
+11. A pull request can be made at anytime after a changes is made and saved in atom, however, creating a pull request at the beginning of your work will allow others to see, comment and help out on the repository. To create a pull request go to your GitHUB repository
+11. Begin work in atom. After changes are made
+
+
+still working on this, please comment on how correct my understanding is
+
+
+Type the command:
+Type the command:
+Type the command:
+Type the command:
+Type the command:
+Type the command:
+Type the command:
+Type the command:
