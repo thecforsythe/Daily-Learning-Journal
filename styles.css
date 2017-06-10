@@ -1,0 +1,26 @@
+body {
+  background-color: #eff3f9;
+  font-family: helvetica,sans-serif;
+
+}
+h1 {
+  font-family: helvetica,sans-serif;
+  font-size: 24px
+}
+
+ol {
+  line-height: 1.3em;
+}
+
+li {
+  margin: 12px;
+}
+
+.cui {
+  color:#ad1135;
+}
+
+
+.git{
+  color:#111166;
+}
