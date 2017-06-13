@@ -1,0 +1,5 @@
+the reading that I did today started off quite difficult for me to understand. The JS book started off by introducing a second way of writing objects, the constructor model, however, I am lost as to why you would want two ways of writing/describing the same thing, written nearly identically. On page 113, the top half of the page, the literal and object are written the same way except for how the variable is written at the top. When compairing the both literal examples on the left side, how is the top different from the bottom? Only the placement of the last curly bracket is different.
+
+The example in the bottom right I do see how you can use a function to model many hotels, that at least makes some sense.
+
+Also I wish we had read pages 114,126,129 over the weekend, that terminology would have helped clear up some of my fogginess about many examples that are shown in the book.
