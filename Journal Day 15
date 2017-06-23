@@ -1,0 +1,3 @@
+Today we code reviewed the animations I added to the cookie stand and busmall projects. As a class we were able to solve how I could make my expanding jpg remain hidden after the animation has ended. We solved this by adding a opacity property to the parent id and added an additional keyframe which set the opacity to 1 at 0%, a step I was missing. I also learned that visibility: hidden objects are not clickable.
+Further work with git and github also gave me a better understanding and more confidence to work in git while in project week.
+Speaking of which, I will be working with Dustin and Benjamin on a hotel themed final project. I will do research into features that would be helpful to have in the site over the weekend.
