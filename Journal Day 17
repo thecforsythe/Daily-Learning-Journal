@@ -1,0 +1,3 @@
+Today was a grind trying to tame the dims on the room selection page. It is slow work but it is slowly coming together. Right not I am trying to add some sort of interesting texture to my otherwise bland bland website. I have been playing with adding solid stripes by using:
+  background: repeating-linear-gradient(39deg, red, red 2px, blue 2px, blue 40px);
+  Degrees can be oriented any direction, including vertically and horizontally. spacing and thickness can be altered any distance you like.
