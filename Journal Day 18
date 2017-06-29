@@ -1,0 +1,12 @@
+Today on our group project there were some troubles with file sharing. After our code review in the morning we merged and pulled the latest complete master only to find that we overlooked one of the files to review and inadvertently deleted some code from the html of our website. Keith helped me do a revert and also a reset and explained the difference between the two.
+Revert essentially copies a previous commit, before unwanted changes were made, and then pastes it at the end of the commit history. This is considered safer working practice by many in the git community because it does not discard any information. If it was needed to retrieve something from the "bad" files at a later date it would be possible.
+git revert <commit name>
+
+Reset on the other hand is an eraser. You determine the point in the history to target and then you can remove them permanently. NO GOING BACK. There are several different levels of spicy for reset.
+git reset <file>                remove a uncommitted file from staging area
+git reset                        resets entire staging area to last previous commit
+git reset --hard                clears staging area and local directory
+git reset <commit>              resets staging area and moves branch tip backwards but does not delete changes made to your local directory
+git reset --hard <commit>       deletes everything to specified commit.
+
+Instructor Keith Dahlby, a real wild man, prefers to use reset instead of revert. "Its just cleaner that way" he says..   :)
