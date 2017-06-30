@@ -1,0 +1,17 @@
+What progress did I make today?
+Last night I made a logo then began messing around with making a more detailed blueprint for the site. Then during code review the team decided it would be too complicated and time consuming to implement a more detailed drawing with the time we have remaining. Fair enough, but the hotel drawing we have now looks amateur.  Oh well.
+Today I worked on getting the site responsive for an iphone, ipad and desktop. So kinda like redesigning the whole thing over again..twice.. But good practice. And interesting to think about layout. 320 x 480 is not a lot of floor space when you have a complex graphic display required to input choices into an app. Brings up the question of how necessary is our actual app?
+
+
+What specific contributions did I make?
+Lots of css.  Here are some links
+https://github.com/dustinyschild/hotel-final-project/commit/0e9b36bb43d99b05fa89168b42e68d5801f73aa8
+
+https://github.com/dustinyschild/hotel-final-project/commit/2416091e4efae8a891acde9e80b9015cf50026b5
+
+what was most challenging?
+Learning the git stuff (please read journal, day 19). The git doesn’t really make sense to me until I do it, get confused by it, then read about it, and then write about it.
+
+Also, I feel like redoing the css for the responsive design went a little more smoothly than in the first part of the wee. I’m getting a little better at using the inspector in chrome to trace back to find the problems. Better at thinking about absolute vs relative.
+
+I had a hell of a time trying to resize our svg to fit inside a div, centered x& y, and then shove a h6 in the same div as well. Not entirely sure what was going on but finally go it to work. Working with height and width % still a bit foggy. Percentage of what, is where I get confused.
