@@ -1,0 +1,10 @@
+While working on our final project I did some things with git for the first time  by myself and I have questions about them because I don't entirely get what I did.
+-Heres the situation: so after code review I merged my changes with master and then did a pull to get everyone else's updates.
+-Then I checked out to a new branch.
+-Then my memory gets a little foggy. I think benjamin told me to do a rebase to the master so my current branch would be glued on to the end of the master branch....not sure why I did that.
+-After doing some work, I did a ACP, except when I got to the P part it didn't work. and I got an error message of some kind. I think it said I was ahead of the master.
+Then benjamin told me to do a fetch, followed by a push --force-with-lease.
+
+  Side question - so after doing some reading, fetch brings the latest updates from master to your computer but it doesn't integrate it with you files. It is a pull without the merging. If it doesn't integrate your files in some way how does git read the master and local files and then resolve these changes if you local file conflicts with the master you just fetched?
+
+    ?so As I have read, doing a rebase will naturally result in you having to do a push --force-with-lease because your local repository will not match the master. But in doing so you rewrite the history of the master in some way, potentially screwing things up for others or at least obfuscating the history for your partners. ... So why is rebase a good thing?
