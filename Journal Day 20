@@ -1,0 +1,13 @@
+Today was the final day of 201. I pulled most of an all nighter to get the website looking as best as I could and iron out some of the small things that were bothering me. As I worked on the site I though about how the project idea is intriguing but our solution to the problem is fairly clunky. Our site, in its current state, would only be usable for a hotel with one or two floors. If you were booking a room in a large city and the hotel had many floors it would be a huge drag to have to look through all of the rooms to pick the one you want. There would have to be:
+  A) A better way to show which rooms where available on which floors.
+  B) Much more suffocated search criteria to narrow down search results.
+  C) Definitely a way to search by price.
+
+  things I wish I had time to fix but didn't:
+  1) custom checkboxes and dropdown menu'
+  2) better looking hotel drawing
+  3) maybe cool transition between each size of display rather than "continual spectrum" of display
+  4) change the way the picture on the landing page displays/crops as the screen size gets smaller. As it stands in iphone mode its mostly just nighttime sky. Could really benefit from having a picture with content visible to the user.
+  5)insert features to make it easier to click on buttons (bigger target)
+  6) give a basic description of each room type and what amenities come standard
+  
